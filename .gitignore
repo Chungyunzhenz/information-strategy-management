@@ -1,0 +1,10 @@
+# Word / Office temporary lock files
+~$*
+*.tmp
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
