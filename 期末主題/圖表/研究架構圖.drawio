@@ -1,99 +1,176 @@
 <mxfile host="app.diagrams.net">
-  <diagram name="研究架構圖" id="framework">
-    <mxGraphModel dx="1266" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+  <diagram name="圖3 研究架構圖" id="framework">
+    <mxGraphModel dx="1266" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="780" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;fontStyle=1;verticalAlign=top;spacingTop=5;fontFamily=Microsoft JhengHei;" value="制度壓力" vertex="1">
-          <mxGeometry height="180" width="160" x="40" y="80" as="geometry" />
+
+        <!-- Title -->
+        <mxCell id="title" value="制度壓力下臺灣金融業 ESG 採行與漂綠風險之探索性研究架構" style="text;html=1;fontSize=15;fontStyle=1;align=center;fontFamily=Microsoft JhengHei;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="184" y="15" width="800" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontFamily=Microsoft JhengHei;" value="強制性壓力" vertex="1">
-          <mxGeometry height="30" width="120" x="60" y="120" as="geometry" />
+
+        <!-- Background chain wrapper -->
+        <mxCell id="bgwrap" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#CCCCCC;strokeWidth=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="55" width="1050" height="85" as="geometry"/>
         </mxCell>
-        <mxCell id="12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontFamily=Microsoft JhengHei;" value="模仿性壓力" vertex="1">
-          <mxGeometry height="30" width="120" x="60" y="160" as="geometry" />
+        <mxCell id="bglabel" value="問題情境之背景脈絡（線性概念邏輯鏈）" style="text;html=1;fontSize=11;align=left;fontFamily=Microsoft JhengHei;fontColor=#888888;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="75" y="58" width="300" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontFamily=Microsoft JhengHei;" value="規範性壓力" vertex="1">
-          <mxGeometry height="30" width="120" x="60" y="200" as="geometry" />
+
+        <!-- Background chain boxes -->
+        <mxCell id="bg1" value="制度壓力" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;fontFamily=Microsoft JhengHei;" vertex="1" parent="1">
+          <mxGeometry x="120" y="90" width="160" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="20" edge="1" parent="1" source="10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;fontStyle=1;fontColor=#185FA5;fontFamily=Microsoft JhengHei;strokeWidth=2;strokeColor=#185FA5;" target="30" value="RQ1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="bgarr1" value="" style="endArrow=classic;html=1;strokeColor=#999999;strokeWidth=1.5;" edge="1" parent="1" source="bg1" target="bg2">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1;verticalAlign=top;spacingTop=5;fontFamily=Microsoft JhengHei;" value="採行動機" vertex="1">
-          <mxGeometry height="180" width="160" x="280" y="80" as="geometry" />
+        <mxCell id="bg2" value="採行動機" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;fontFamily=Microsoft JhengHei;" vertex="1" parent="1">
+          <mxGeometry x="360" y="90" width="160" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontFamily=Microsoft JhengHei;" value="合規動機" vertex="1">
-          <mxGeometry height="30" width="120" x="300" y="120" as="geometry" />
+        <mxCell id="bgarr2" value="" style="endArrow=classic;html=1;strokeColor=#999999;strokeWidth=1.5;" edge="1" parent="1" source="bg2" target="bg3">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="32" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontFamily=Microsoft JhengHei;" value="模仿動機" vertex="1">
-          <mxGeometry height="30" width="120" x="300" y="160" as="geometry" />
+        <mxCell id="bg3" value="採行方式" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;fontFamily=Microsoft JhengHei;" vertex="1" parent="1">
+          <mxGeometry x="600" y="90" width="160" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontFamily=Microsoft JhengHei;" value="自發動機" vertex="1">
-          <mxGeometry height="30" width="120" x="300" y="200" as="geometry" />
+        <mxCell id="bgarr3" value="" style="endArrow=classic;html=1;strokeColor=#999999;strokeWidth=1.5;" edge="1" parent="1" source="bg3" target="bg4">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="40" edge="1" parent="1" source="30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;fontStyle=1;fontColor=#0F6E56;fontFamily=Microsoft JhengHei;strokeWidth=2;strokeColor=#0F6E56;" target="50" value="RQ2">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="bg4" value="漂綠風險" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;fontFamily=Microsoft JhengHei;" vertex="1" parent="1">
+          <mxGeometry x="840" y="90" width="160" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="50" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;fontStyle=1;verticalAlign=top;spacingTop=5;fontFamily=Microsoft JhengHei;" value="採行方式" vertex="1">
-          <mxGeometry height="180" width="160" x="520" y="80" as="geometry" />
+
+        <!-- Section divider/label -->
+        <mxCell id="seclabel" value="本研究三項研究問題之並列分析切面" style="text;html=1;fontSize=13;fontStyle=1;align=center;fontFamily=Microsoft JhengHei;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="384" y="155" width="400" height="25" as="geometry"/>
         </mxCell>
-        <mxCell id="51" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontFamily=Microsoft JhengHei;" value="實質採行" vertex="1">
-          <mxGeometry height="35" width="120" x="540" y="130" as="geometry" />
+
+        <!-- RQ1 column -->
+        <mxCell id="c1box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#185FA5;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="190" width="370" height="495" as="geometry"/>
         </mxCell>
-        <mxCell id="52" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontFamily=Microsoft JhengHei;" value="形式採行" vertex="1">
-          <mxGeometry height="35" width="120" x="540" y="185" as="geometry" />
+        <mxCell id="c1header" value="RQ1　同壓力下的採行分化" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;align=center;fontFamily=Microsoft JhengHei;fontColor=#FFFFFF;fillColor=#185FA5;strokeColor=#185FA5;" vertex="1" parent="1">
+          <mxGeometry x="20" y="190" width="370" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="60" edge="1" parent="1" source="50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;fontStyle=1;fontColor=#854F0B;fontFamily=Microsoft JhengHei;strokeWidth=2;strokeColor=#854F0B;" target="70" value="RQ3">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="c1q" value="同壓力下臺灣金融業為何&lt;br&gt;仍呈現實質與形式之差異？" style="text;html=1;fontSize=11;align=center;fontFamily=Microsoft JhengHei;fontColor=#185FA5;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="240" width="350" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="70" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;fontStyle=1;verticalAlign=top;spacingTop=5;fontFamily=Microsoft JhengHei;" value="結果面" vertex="1">
-          <mxGeometry height="180" width="160" x="760" y="80" as="geometry" />
+        <mxCell id="c1sec1" value="〔理論基礎〕" style="text;html=1;fontSize=11;fontStyle=2;align=left;fontFamily=Microsoft JhengHei;fontColor=#185FA5;" vertex="1" parent="1">
+          <mxGeometry x="35" y="290" width="200" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="71" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;fontFamily=Microsoft JhengHei;" value="ESG 資訊品質" vertex="1">
-          <mxGeometry height="35" width="120" x="780" y="130" as="geometry" />
+        <mxCell id="c1t1" value="制度同形化&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;（預測同質）&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;fontFamily=Microsoft JhengHei;" vertex="1" parent="1">
+          <mxGeometry x="40" y="315" width="155" height="55" as="geometry"/>
         </mxCell>
-        <mxCell id="72" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;fontFamily=Microsoft JhengHei;" value="漂綠風險" vertex="1">
-          <mxGeometry height="35" width="120" x="780" y="185" as="geometry" />
+        <mxCell id="c1t2" value="脫鉤理論&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;（解釋分化）&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;fontFamily=Microsoft JhengHei;" vertex="1" parent="1">
+          <mxGeometry x="215" y="315" width="155" height="55" as="geometry"/>
         </mxCell>
-        <mxCell id="80" edge="1" parent="1" style="endArrow=none;html=1;strokeColor=#999999;strokeWidth=0.5;dashed=1;" value="">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="40" y="310" as="sourcePoint" />
-            <mxPoint x="920" y="310" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="c1arrow" value="補充" style="endArrow=classic;html=1;strokeColor=#185FA5;strokeWidth=1.5;fontSize=10;fontFamily=Microsoft JhengHei;fontColor=#185FA5;" edge="1" parent="1" source="c1t1" target="c1t2">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="81" parent="1" style="text;html=1;fontSize=14;fontStyle=1;align=center;fontFamily=Microsoft JhengHei;fontColor=#333333;" value="理論基礎" vertex="1">
-          <mxGeometry height="30" width="100" x="430" y="320" as="geometry" />
+        <mxCell id="c1sec2" value="〔對話文獻〕" style="text;html=1;fontSize=11;fontStyle=2;align=left;fontFamily=Microsoft JhengHei;fontColor=#185FA5;" vertex="1" parent="1">
+          <mxGeometry x="35" y="385" width="200" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="90" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;fontSize=12;fontFamily=Microsoft JhengHei;" value="&lt;b&gt;制度理論&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;DiMaggio &amp;amp; Powell, 1983&lt;/font&gt;" vertex="1">
-          <mxGeometry height="50" width="200" x="60" y="360" as="geometry" />
+        <mxCell id="c1lit" value="DiMaggio &amp; Powell (1983)&lt;br&gt;Meyer &amp; Rowan (1977)&lt;br&gt;Marquis et al. (2016)&lt;br&gt;Bothello et al. (2023)&lt;br&gt;Huang et al. (2022)&lt;br&gt;胡詠晴（民 114）&lt;br&gt;范植閎（民 114）" style="text;html=1;fontSize=11;align=left;fontFamily=Microsoft JhengHei;fontColor=#333333;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="45" y="410" width="320" height="135" as="geometry"/>
         </mxCell>
-        <mxCell id="91" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;fontSize=12;fontFamily=Microsoft JhengHei;" value="&lt;b&gt;脫鉤理論&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;Meyer &amp;amp; Rowan, 1977&lt;/font&gt;" vertex="1">
-          <mxGeometry height="50" width="200" x="380" y="360" as="geometry" />
+        <mxCell id="c1sec3" value="〔輸出〕" style="text;html=1;fontSize=11;fontStyle=2;align=left;fontFamily=Microsoft JhengHei;fontColor=#185FA5;" vertex="1" parent="1">
+          <mxGeometry x="35" y="555" width="200" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="92" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;fontSize=12;fontFamily=Microsoft JhengHei;" value="&lt;b&gt;漂綠&lt;/b&gt;相關研究&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;Delmas &amp;amp; Burbano, 2011&lt;/font&gt;" vertex="1">
-          <mxGeometry height="50" width="200" x="700" y="360" as="geometry" />
+        <mxCell id="c1out" value="揭示同形化理論之解釋極限&lt;br&gt;以脫鉤理論補充分化機制" style="text;html=1;fontSize=11;align=left;fontFamily=Microsoft JhengHei;fontColor=#333333;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="45" y="580" width="320" height="95" as="geometry"/>
         </mxCell>
-        <mxCell id="95" edge="1" parent="1" style="endArrow=none;html=1;strokeColor=#999999;dashed=1;strokeWidth=0.5;" value="">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="160" y="360" as="sourcePoint" />
-            <mxPoint x="120" y="260" as="targetPoint" />
-          </mxGeometry>
+
+        <!-- RQ2 column -->
+        <mxCell id="c2box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0F6E56;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="400" y="190" width="370" height="495" as="geometry"/>
         </mxCell>
-        <mxCell id="96" edge="1" parent="1" style="endArrow=none;html=1;strokeColor=#999999;dashed=1;strokeWidth=0.5;" value="">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="480" y="360" as="sourcePoint" />
-            <mxPoint x="480" y="260" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="c2header" value="RQ2　判斷指標的文獻整合與在地適用" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;align=center;fontFamily=Microsoft JhengHei;fontColor=#FFFFFF;fillColor=#0F6E56;strokeColor=#0F6E56;" vertex="1" parent="1">
+          <mxGeometry x="400" y="190" width="370" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="97" edge="1" parent="1" style="endArrow=none;html=1;strokeColor=#999999;dashed=1;strokeWidth=0.5;" value="">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="800" y="360" as="sourcePoint" />
-            <mxPoint x="840" y="260" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="c2q" value="文獻判斷指標如何適用於&lt;br&gt;臺灣金融業實質/形式採行區辨？" style="text;html=1;fontSize=11;align=center;fontFamily=Microsoft JhengHei;fontColor=#0F6E56;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="240" width="350" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="100" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6E6E6;strokeColor=#B3B3B3;fontSize=12;fontFamily=Microsoft JhengHei;" value="研究方法：文獻歸納 ＋ 次級資料分析（金融業 2~3 家金控示範分析）" vertex="1">
-          <mxGeometry height="35" width="560" x="200" y="440" as="geometry" />
+        <mxCell id="c2sec1" value="〔六項判斷指標〕" style="text;html=1;fontSize=11;fontStyle=2;align=left;fontFamily=Microsoft JhengHei;fontColor=#0F6E56;" vertex="1" parent="1">
+          <mxGeometry x="415" y="290" width="200" height="20" as="geometry"/>
         </mxCell>
+        <mxCell id="c2i1" value="① ESG 揭露完整度" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;fontFamily=Microsoft JhengHei;" vertex="1" parent="1">
+          <mxGeometry x="420" y="315" width="160" height="22" as="geometry"/>
+        </mxCell>
+        <mxCell id="c2i2" value="② 揭露質量一致性" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;fontFamily=Microsoft JhengHei;" vertex="1" parent="1">
+          <mxGeometry x="590" y="315" width="160" height="22" as="geometry"/>
+        </mxCell>
+        <mxCell id="c2i3" value="③ 第三方確信" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;fontFamily=Microsoft JhengHei;" vertex="1" parent="1">
+          <mxGeometry x="420" y="345" width="160" height="22" as="geometry"/>
+        </mxCell>
+        <mxCell id="c2i4" value="④ 確信範圍" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;fontFamily=Microsoft JhengHei;" vertex="1" parent="1">
+          <mxGeometry x="590" y="345" width="160" height="22" as="geometry"/>
+        </mxCell>
+        <mxCell id="c2i5" value="⑤ 減碳目標具體性" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;fontFamily=Microsoft JhengHei;" vertex="1" parent="1">
+          <mxGeometry x="420" y="375" width="160" height="22" as="geometry"/>
+        </mxCell>
+        <mxCell id="c2i6" value="⑥ 承諾與績效一致性" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;fontFamily=Microsoft JhengHei;" vertex="1" parent="1">
+          <mxGeometry x="590" y="375" width="160" height="22" as="geometry"/>
+        </mxCell>
+        <mxCell id="c2sec2" value="〔對話文獻〕" style="text;html=1;fontSize=11;fontStyle=2;align=left;fontFamily=Microsoft JhengHei;fontColor=#0F6E56;" vertex="1" parent="1">
+          <mxGeometry x="415" y="410" width="200" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="c2lit" value="Delmas &amp; Burbano (2011)&lt;br&gt;Walker &amp; Wan (2012)&lt;br&gt;Yu, Luu &amp; Chen (2020)&lt;br&gt;Nemes et al. (2022)&lt;br&gt;Zhan et al. (2025)&lt;br&gt;鄭杭葭（民 112）&lt;br&gt;明道增（民 113）" style="text;html=1;fontSize=11;align=left;fontFamily=Microsoft JhengHei;fontColor=#333333;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="425" y="435" width="320" height="115" as="geometry"/>
+        </mxCell>
+        <mxCell id="c2sec3" value="〔輸出〕" style="text;html=1;fontSize=11;fontStyle=2;align=left;fontFamily=Microsoft JhengHei;fontColor=#0F6E56;" vertex="1" parent="1">
+          <mxGeometry x="415" y="555" width="200" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="c2out" value="整合分散文獻指標&lt;br&gt;建構適用臺灣金融業之&lt;br&gt;多維度探索性判別框架" style="text;html=1;fontSize=11;align=left;fontFamily=Microsoft JhengHei;fontColor=#333333;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="425" y="580" width="320" height="95" as="geometry"/>
+        </mxCell>
+
+        <!-- RQ3 column -->
+        <mxCell id="c3box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#854F0B;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="780" y="190" width="370" height="495" as="geometry"/>
+        </mxCell>
+        <mxCell id="c3header" value="RQ3　臺灣特有制度對國際理論之補充" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;align=center;fontFamily=Microsoft JhengHei;fontColor=#FFFFFF;fillColor=#854F0B;strokeColor=#854F0B;" vertex="1" parent="1">
+          <mxGeometry x="780" y="190" width="370" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="c3q" value="臺灣特有制度能補充哪些&lt;br&gt;新判斷指標與理論觀點？" style="text;html=1;fontSize=11;align=center;fontFamily=Microsoft JhengHei;fontColor=#854F0B;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="240" width="350" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="c3sec1" value="〔臺灣特有制度機制〕" style="text;html=1;fontSize=11;fontStyle=2;align=left;fontFamily=Microsoft JhengHei;fontColor=#854F0B;" vertex="1" parent="1">
+          <mxGeometry x="795" y="290" width="200" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="c3m1" value="金管會強制&lt;br&gt;第三方確信" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;fontFamily=Microsoft JhengHei;" vertex="1" parent="1">
+          <mxGeometry x="800" y="315" width="105" height="55" as="geometry"/>
+        </mxCell>
+        <mxCell id="c3m2" value="永續金融&lt;br&gt;評鑑等級" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;fontFamily=Microsoft JhengHei;" vertex="1" parent="1">
+          <mxGeometry x="915" y="315" width="105" height="55" as="geometry"/>
+        </mxCell>
+        <mxCell id="c3m3" value="TESG&lt;br&gt;揭露/議題分數" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;fontFamily=Microsoft JhengHei;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="315" width="105" height="55" as="geometry"/>
+        </mxCell>
+        <mxCell id="c3sec2" value="〔對話文獻〕" style="text;html=1;fontSize=11;fontStyle=2;align=left;fontFamily=Microsoft JhengHei;fontColor=#854F0B;" vertex="1" parent="1">
+          <mxGeometry x="795" y="385" width="200" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="c3lit" value="Kim &amp; Lyon (2015)&lt;br&gt;Hsiao &amp; Shiu (2025)&lt;br&gt;金管會（民 113a）&lt;br&gt;金管會（民 113b）&lt;br&gt;金管會（民 112）&lt;br&gt;＋ 臺灣在地學位論文" style="text;html=1;fontSize=11;align=left;fontFamily=Microsoft JhengHei;fontColor=#333333;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="805" y="410" width="320" height="115" as="geometry"/>
+        </mxCell>
+        <mxCell id="c3sec3" value="〔輸出〕" style="text;html=1;fontSize=11;fontStyle=2;align=left;fontFamily=Microsoft JhengHei;fontColor=#854F0B;" vertex="1" parent="1">
+          <mxGeometry x="795" y="555" width="200" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="c3out" value="反思國際漂綠理論於臺灣之適用性&lt;br&gt;辨析臺灣制度對既有國際&lt;br&gt;理論之補充或挑戰" style="text;html=1;fontSize=11;align=left;fontFamily=Microsoft JhengHei;fontColor=#333333;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="805" y="580" width="320" height="95" as="geometry"/>
+        </mxCell>
+
+        <!-- Empirical setting -->
+        <mxCell id="empbox" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6E6E6;strokeColor=#B3B3B3;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="60" y="705" width="1050" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="empheader" value="實證場域" style="text;html=1;fontSize=12;fontStyle=1;align=left;fontFamily=Microsoft JhengHei;fontColor=#444444;" vertex="1" parent="1">
+          <mxGeometry x="75" y="710" width="100" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="empbody" value="上市金控公司 2~3 家對比式選樣（依永續金融評鑑等級：高分組／中段組／待觀察組）　＋　次級資料分析：永續報告書、ESG 數位平台申報資料、公開資訊觀測站確信紀錄、TESG 評鑑分數" style="text;html=1;fontSize=11;align=center;fontFamily=Microsoft JhengHei;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="75" y="728" width="1020" height="25" as="geometry"/>
+        </mxCell>
+
       </root>
     </mxGraphModel>
   </diagram>
