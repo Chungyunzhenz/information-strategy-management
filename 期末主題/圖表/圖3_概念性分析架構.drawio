@@ -1,0 +1,98 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="圖3 概念性分析架構" id="concept_framework">
+    <mxGraphModel dx="1200" dy="640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="660" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Subtitle -->
+        <mxCell id="subtitle" value="三項研究問題之並列分析切面（問題情境脈絡見下方因果邏輯鏈）" style="text;html=1;fontSize=11;align=center;fontFamily=Microsoft JhengHei;fontColor=#888888;" vertex="1" parent="1">
+          <mxGeometry x="184" y="44" width="800" height="18" as="geometry"/>
+        </mxCell>
+
+        <!-- Linear concept chain (neutral grey boxes) -->
+        <mxCell id="f1" value="制度壓力" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EFEFEF;strokeColor=#999999;fontSize=12;fontFamily=Microsoft JhengHei;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="125" y="80" width="175" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="fa1" style="endArrow=classic;html=1;strokeColor=#999999;strokeWidth=1.5;" edge="1" parent="1" source="f1" target="f2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="f2" value="採行動機" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EFEFEF;strokeColor=#999999;fontSize=12;fontFamily=Microsoft JhengHei;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="370" y="80" width="175" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="fa2" style="endArrow=classic;html=1;strokeColor=#999999;strokeWidth=1.5;" edge="1" parent="1" source="f2" target="f3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="f3" value="採行方式" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EFEFEF;strokeColor=#999999;fontSize=12;fontFamily=Microsoft JhengHei;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="615" y="80" width="175" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="fa3" style="endArrow=classic;html=1;strokeColor=#999999;strokeWidth=1.5;" edge="1" parent="1" source="f3" target="f4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="f4" value="漂綠風險" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EFEFEF;strokeColor=#999999;fontSize=12;fontFamily=Microsoft JhengHei;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="860" y="80" width="175" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- RQ1 column -->
+        <mxCell id="c1box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="140" width="372" height="460" as="geometry"/>
+        </mxCell>
+        <mxCell id="c1header" value="RQ1　同壓力下的採行分化" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;align=center;fontFamily=Microsoft JhengHei;fontColor=#FFFFFF;fillColor=#185FA5;strokeColor=#185FA5;" vertex="1" parent="1">
+          <mxGeometry x="20" y="140" width="372" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="c1q" value="問：同壓力下為何仍呈現實質與形式之採行差異？" style="text;html=1;fontSize=12;fontStyle=1;align=left;fontFamily=Microsoft JhengHei;fontColor=#185FA5;verticalAlign=top;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="38" y="195" width="336" height="48" as="geometry"/>
+        </mxCell>
+        <mxCell id="c1theory" value="理論基礎：制度同形化（DiMaggio &amp; Powell, 1983）、脫鉤理論（Meyer &amp; Rowan, 1977）" style="text;html=1;fontSize=11;align=left;fontFamily=Microsoft JhengHei;fontColor=#333333;verticalAlign=top;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="38" y="250" width="336" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="c1facet" value="切面：解釋採行分化" style="text;html=1;fontSize=11;align=left;fontFamily=Microsoft JhengHei;fontColor=#333333;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="38" y="312" width="336" height="22" as="geometry"/>
+        </mxCell>
+
+        <!-- RQ2 column -->
+        <mxCell id="c2box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="400" y="140" width="372" height="460" as="geometry"/>
+        </mxCell>
+        <mxCell id="c2header" value="RQ2　判別指標的整合與在地適用" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;align=center;fontFamily=Microsoft JhengHei;fontColor=#FFFFFF;fillColor=#0F6E56;strokeColor=#0F6E56;" vertex="1" parent="1">
+          <mxGeometry x="400" y="140" width="372" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="c2q" value="問：既有判別指標如何整合並適用於臺灣金融業？" style="text;html=1;fontSize=12;fontStyle=1;align=left;fontFamily=Microsoft JhengHei;fontColor=#0F6E56;verticalAlign=top;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="418" y="195" width="336" height="48" as="geometry"/>
+        </mxCell>
+        <mxCell id="c2theory" value="理論基礎：脫鉤理論、ESG 揭露品質與質量落差" style="text;html=1;fontSize=11;align=left;fontFamily=Microsoft JhengHei;fontColor=#333333;verticalAlign=top;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="418" y="250" width="336" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="c2facet" value="切面：指標整合（六項指標詳見表 5）" style="text;html=1;fontSize=11;align=left;fontFamily=Microsoft JhengHei;fontColor=#333333;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="418" y="312" width="336" height="22" as="geometry"/>
+        </mxCell>
+
+        <!-- RQ3 column -->
+        <mxCell id="c3box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="780" y="140" width="372" height="460" as="geometry"/>
+        </mxCell>
+        <mxCell id="c3header" value="RQ3　臺灣特有制度對國際理論之補充" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;align=center;fontFamily=Microsoft JhengHei;fontColor=#FFFFFF;fillColor=#854F0B;strokeColor=#854F0B;" vertex="1" parent="1">
+          <mxGeometry x="780" y="140" width="372" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="c3q" value="問：臺灣特有制度（強制確信、永續金融評鑑、TESG）能補充哪些國際觀點？" style="text;html=1;fontSize=12;fontStyle=1;align=left;fontFamily=Microsoft JhengHei;fontColor=#854F0B;verticalAlign=top;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="798" y="195" width="336" height="52" as="geometry"/>
+        </mxCell>
+        <mxCell id="c3theory" value="理論基礎：監管設計與揭露行為（Kim &amp; Lyon, 2015）、在地制度" style="text;html=1;fontSize=11;align=left;fontFamily=Microsoft JhengHei;fontColor=#333333;verticalAlign=top;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="798" y="255" width="336" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="c3facet" value="切面：在地補充" style="text;html=1;fontSize=11;align=left;fontFamily=Microsoft JhengHei;fontColor=#333333;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="798" y="318" width="336" height="22" as="geometry"/>
+        </mxCell>
+
+        <!-- Footer -->
+        <mxCell id="footerbox" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F7F7F7;strokeColor=#CCCCCC;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="620" width="1132" height="42" as="geometry"/>
+        </mxCell>
+        <mxCell id="footer" value="判別工具：實質／形式採行之比較（表 1）與六項判別指標（表 5）；示範性檢視設計見「陸、研究方法」。" style="text;html=1;fontSize=11;align=left;fontFamily=Microsoft JhengHei;fontColor=#666666;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="38" y="620" width="1100" height="42" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

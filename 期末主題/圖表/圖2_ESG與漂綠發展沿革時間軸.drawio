@@ -127,7 +127,7 @@
             <mxPoint x="747" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="e6t" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontFamily=Microsoft JhengHei;" value="&lt;strong data-start=&quot;447&quot; data-end=&quot;460&quot;&gt;永續發展路徑圖啟動&lt;/strong&gt;&lt;br data-start=&quot;460&quot; data-end=&quot;463&quot;&gt;&lt;br/&gt;&lt;strong data-start=&quot;465&quot; data-end=&quot;482&quot;&gt;TESG 永續發展指標推出&lt;/strong&gt;" vertex="1">
+        <mxCell id="e6t" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontFamily=Microsoft JhengHei;" value="永續發展路徑圖啟動&lt;br&gt;TESG 永續發展指標推出" vertex="1">
           <mxGeometry height="50" width="110" x="692" y="250" as="geometry" />
         </mxCell>
         <mxCell id="e7" edge="1" parent="1" style="endArrow=none;html=1;strokeColor=#999999;strokeWidth=0.5;" value="">
@@ -147,9 +147,6 @@
         </mxCell>
         <mxCell id="e8t" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;fontStyle=1;fontFamily=Microsoft JhengHei;" value="全體上市櫃公司&lt;br&gt;強制編製永續報告書" vertex="1">
           <mxGeometry height="40" width="130" x="877" y="250" as="geometry" />
-        </mxCell>
-        <mxCell id="M2EHAI_XF1UNjrIEh_Vn-1" parent="1" style="text;html=1;fontSize=14;fontStyle=1;align=center;fontFamily=Microsoft JhengHei;fontColor=#333333;" value="圖 2　ESG 與漂綠議題之發展沿革" vertex="1">
-          <mxGeometry height="30" width="300" x="377" y="350" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

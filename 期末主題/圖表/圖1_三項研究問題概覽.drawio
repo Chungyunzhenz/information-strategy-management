@@ -5,11 +5,6 @@
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
 
-        <!-- Title -->
-        <mxCell id="title" value="本研究三項研究問題之概覽" style="text;html=1;fontSize=16;fontStyle=1;align=center;fontFamily=Microsoft JhengHei;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="335" y="20" width="500" height="30" as="geometry"/>
-        </mxCell>
-
         <!-- RQ1 Card -->
         <mxCell id="rq1box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="30" y="80" width="350" height="225" as="geometry"/>
@@ -34,10 +29,10 @@
         <mxCell id="rq2header" value="RQ2" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;fontStyle=1;align=center;fontFamily=Microsoft JhengHei;fontColor=#FFFFFF;fillColor=#0F6E56;strokeColor=#0F6E56;" vertex="1" parent="1">
           <mxGeometry x="410" y="80" width="350" height="45" as="geometry"/>
         </mxCell>
-        <mxCell id="rq2subtitle" value="判斷指標的文獻整合與在地適用" style="text;html=1;fontSize=14;fontStyle=1;align=center;fontFamily=Microsoft JhengHei;fontColor=#0F6E56;" vertex="1" parent="1">
+        <mxCell id="rq2subtitle" value="判別指標的文獻整合與在地適用" style="text;html=1;fontSize=14;fontStyle=1;align=center;fontFamily=Microsoft JhengHei;fontColor=#0F6E56;" vertex="1" parent="1">
           <mxGeometry x="410" y="135" width="350" height="25" as="geometry"/>
         </mxCell>
-        <mxCell id="rq2q" value="既有文獻所提出區分企業&lt;br&gt;「實質採行」與「形式採行」&lt;br&gt;的判斷指標，&lt;br&gt;如何適用於臺灣金融業？" style="text;html=1;fontSize=12;align=center;fontFamily=Microsoft JhengHei;fontColor=#333333;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="rq2q" value="既有文獻所提出區分企業&lt;br&gt;「實質採行」與「形式採行」&lt;br&gt;的判別指標，&lt;br&gt;如何適用於臺灣金融業？" style="text;html=1;fontSize=12;align=center;fontFamily=Microsoft JhengHei;fontColor=#333333;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="420" y="170" width="330" height="90" as="geometry"/>
         </mxCell>
         <mxCell id="rq2tag" value="〔切面：指標整合〕" style="text;html=1;fontSize=11;fontStyle=2;align=center;fontFamily=Microsoft JhengHei;fontColor=#0F6E56;" vertex="1" parent="1">
@@ -54,7 +49,7 @@
         <mxCell id="rq3subtitle" value="臺灣特有制度對國際理論之補充" style="text;html=1;fontSize=14;fontStyle=1;align=center;fontFamily=Microsoft JhengHei;fontColor=#854F0B;" vertex="1" parent="1">
           <mxGeometry x="790" y="135" width="350" height="25" as="geometry"/>
         </mxCell>
-        <mxCell id="rq3q" value="在國際漂綠研究指標與理論之外，&lt;br&gt;臺灣金融業特有制度&lt;br&gt;（強制確信、永續金融評鑑、TESG）&lt;br&gt;能補充哪些新判斷指標與理論觀點？" style="text;html=1;fontSize=11;align=center;fontFamily=Microsoft JhengHei;fontColor=#333333;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="rq3q" value="在國際漂綠研究指標與理論之外，&lt;br&gt;臺灣金融業特有制度&lt;br&gt;（強制確信、永續金融評鑑、TESG）&lt;br&gt;能補充哪些新判別指標與理論觀點？" style="text;html=1;fontSize=11;align=center;fontFamily=Microsoft JhengHei;fontColor=#333333;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="800" y="170" width="330" height="90" as="geometry"/>
         </mxCell>
         <mxCell id="rq3tag" value="〔切面：在地補充〕" style="text;html=1;fontSize=11;fontStyle=2;align=center;fontFamily=Microsoft JhengHei;fontColor=#854F0B;" vertex="1" parent="1">
@@ -62,7 +57,7 @@
         </mxCell>
 
         <!-- Footer -->
-        <mxCell id="footer" value="三項研究問題從不同切面共同探討「制度壓力下臺灣金融業 ESG 採行與漂綠風險」" style="text;html=1;fontSize=12;align=center;fontFamily=Microsoft JhengHei;fontColor=#666666;fontStyle=2;" vertex="1" parent="1">
+        <mxCell id="footer" value="三項研究問題從不同切面共同探討「制度壓力下臺灣金融業 ESG 採行方式與漂綠風險」" style="text;html=1;fontSize=12;align=center;fontFamily=Microsoft JhengHei;fontColor=#666666;fontStyle=2;" vertex="1" parent="1">
           <mxGeometry x="184" y="325" width="800" height="25" as="geometry"/>
         </mxCell>
 
